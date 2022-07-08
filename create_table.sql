@@ -1,11 +1,11 @@
 CREATE TABLE employee (
 	emp_no INT,
-    birth_date DATE,
-    first_name VARCHAR(50),
+    	birth_date DATE,
+    	first_name VARCHAR(50),
 	last_name VARCHAR(50),
-    gender CHAR(1),
-    hire_date DATE
-);
+    	gender CHAR(1),
+    	hire_date DATE
+	);
 
 CREATE TABLE employee_salary_data  ( 
 	person_id 	INT NULL,
